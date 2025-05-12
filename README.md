@@ -31,3 +31,17 @@ He volgut personalitzar el to i el comportament del XatBot modificant la variabl
 - Només contesta preguntes sobre el cicle de SMX, l’Institut Castellbisbal o el perfil acadèmic.
 - Ignora temes personals, polítics o ofensius.
 - Si algú fa una pregunta fora de context, respon d'una manera divertida però clara.
+
+### ⚙️ Instal·lació de dependències (si treballes amb Google Colab)
+
+Si vols executar el projecte des de Google Colab, primer has d’instal·lar aquestes llibreries:
+
+```bash
+!pip install google-genai
+!pip install beautifulsoup4 requests
+!pip install flask flask-ngrok
+!pip install flask pyngrok
+!pip install flask-cors
+
+## 🚀 Execució en entorn de desenvolupament (Colab)
+
